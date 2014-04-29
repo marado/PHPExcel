@@ -2,13 +2,17 @@
 
 This PHPExcel fork only exists so you can have an easy way to get pear packages
 of it, until upstream moves towards a new working pear channel.
+It also provides RPMs for PHPExcel and its dependencies.
 
 You can install the package by downloading the file in Build/release/ (eg:
 PHPExcel-1.0.8.20140428.tgz ), and then simply running:
 
  pear install PHPExcel-1.0.8.20140428.tgz
 
-## Dependences
+Also in Build/release/ you'll find an 'rpm' directory, with specfiles and rpms
+for PHPExcel and its dependencies.
+
+## Dependencies
 
 You can find one of the dependencies on this Pear Channel:
 http://pear.cakephp.org/
